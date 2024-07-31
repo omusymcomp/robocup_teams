@@ -1,0 +1,10 @@
+prefix=/home/pvc/2d/simulation-2d-cpp/simulation-2d-librcsc/lib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: librcsc
+Description: a base library for developing a RoboCup soccer simulation client
+Version: rc2021
+Libs: -L${libdir} -lrcsc -lz -lm
+Cflags: -I${includedir}
