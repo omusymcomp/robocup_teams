@@ -1,0 +1,10 @@
+prefix=/root/local
+exec_prefix=/root/local
+libdir=/root/local/lib
+includedir=/root/local/include
+
+Name: librcsc
+Description: a base library for developing a RoboCup soccer simulation client
+Version: 2023
+Libs: -L${libdir} -lrcsc -lz -lm
+Cflags: -I${includedir}
