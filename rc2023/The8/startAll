@@ -1,0 +1,29 @@
+#!/bin/sh
+echo '
+
+                            
+----------------------------------------
+          ***HELIOS_based***
+----------------------------------------
+by :
+    Morteza Noohpisheh
+    Maryam Shekarriz
+    +
+----------------------------------------
+
+'
+DIR=`dirname $0`
+${DIR}/start 127.0.0.1 . 1 &
+sleep 1;
+${DIR}/start 127.0.0.1 . 2 &
+${DIR}/start 127.0.0.1 . 3 &
+${DIR}/start 127.0.0.1 . 4 &
+${DIR}/start 127.0.0.1 . 5 &
+${DIR}/start 127.0.0.1 . 6 &
+${DIR}/start 127.0.0.1 . 7 &
+${DIR}/start 127.0.0.1 . 8 &
+${DIR}/start 127.0.0.1 . 9 &
+${DIR}/start 127.0.0.1 . 10 &
+${DIR}/start 127.0.0.1 . 11 &
+${DIR}/start 127.0.0.1 . 12 &
+

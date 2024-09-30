@@ -1,0 +1,12 @@
+#!/bin/sh
+
+player="The8_player"
+coach="The8_coach"
+
+killall -TERM ${player}
+killall -TERM ${coach}
+
+sleep 2
+
+killall -KILL ${player}
+killall -KILL ${coach}
