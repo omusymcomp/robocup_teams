@@ -4,7 +4,7 @@ HOST=$1
 BASEDIR=$2
 NUM=$3
 
-LIBPATH=/home/username/rcss/teams/yushan2024/bin/data/lib
+LIBPATH=/home/username/rcss/teams/rc2023/yushan2024/bin/data/lib
 if [ x"$LIBPATH" != x ]; then
   if [ x"$LD_LIBRARY_PATH" = x ]; then
     LD_LIBRARY_PATH=$LIBPATH
@@ -17,12 +17,12 @@ fi
 
 teamname="YuShan2024"
 
-player="/home/username/rcss/teams/yushan2024/bin/YuShan2024_Player"
-coach="/home/username/rcss/teams/yushan2024/bin/YuShan2024_Coach"
+player="/home/username/rcss/teams/rc2023/yushan2024/bin/YuShan2024_Player"
+coach="/home/username/rcss/teams/rc2023/yushan2024/bin/YuShan2024_Coach"
 
-config="/home/username/rcss/teams/yushan2024/bin/data/player.conf"
-coach_config="/home/username/rcss/teams/yushan2024/bin/data/coach.conf"
-config_dir="/home/username/rcss/teams/yushan2024/bin/data/formations-dt"
+config="/home/username/rcss/teams/rc2023/yushan2024/bin/data/player.conf"
+coach_config="/home/username/rcss/teams/rc2023/yushan2024/bin/data/coach.conf"
+config_dir="/home/username/rcss/teams/rc2023/yushan2024/bin/data/formations-dt"
 
 opt="--player-config ${config} --config_dir ${config_dir}"
 opt="${opt} -h ${HOST} -t ${teamname}"

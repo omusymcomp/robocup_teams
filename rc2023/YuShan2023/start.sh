@@ -5,7 +5,7 @@
 # Bugs or Suggestions please mail to guofeng1208@163.com
 #=======================================================
 
-LIBPATH=/home/username/rcss/teams/YuShan2023/data/lib
+LIBPATH=/home/username/rcss/teams/rc2023/YuShan2023/data/lib
 if [ -z "$LD_LIBRARY_PATH" ]
 then
 	LD_LIBRARY_PATH=$LIBPATH
@@ -21,12 +21,12 @@ port=6000
 coach_port=6002
 teamname="YuShan2023"
 
-player="/home/username/rcss/teams/YuShan2023/YuShan2023_Player"
-coach="/home/username/rcss/teams/YuShan2023/YuShan2023_Coach"
+player="/home/username/rcss/teams/rc2023/YuShan2023/YuShan2023_Player"
+coach="/home/username/rcss/teams/rc2023/YuShan2023/YuShan2023_Coach"
 
-config="/home/username/rcss/teams/YuShan2023/data/player.conf"
-coach_config="/home/username/rcss/teams/YuShan2023/data/coach.conf"
-config_dir="/home/username/rcss/teams/YuShan2023/data/formations-dt"
+config="/home/username/rcss/teams/rc2023/YuShan2023/data/player.conf"
+coach_config="/home/username/rcss/teams/rc2023/YuShan2023/data/coach.conf"
+config_dir="/home/username/rcss/teams/rc2023/YuShan2023/data/formations-dt"
 
 opt="--player-config ${config} --config_dir ${config_dir}"
 coachopt="--coach-config ${coach_config} --use_team_graphic on"
